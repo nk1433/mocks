@@ -1,0 +1,62 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "mocks",
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+      },
+      "dependencies": {
+        "fakeParser": "nk1433/faker-parser#master"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nk1433/mocks.git"
+      },
+      "author": "",
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/nk1433/mocks/issues"
+      },
+      "homepage": "https://github.com/nk1433/mocks#readme"
+    },
+    "prefix": "/home/user12/dev/mocks"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/home/user12/.pnpm-store/v3",
+    "virtualStoreDir": "/home/user12/dev/mocks/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/home/user12/dev/mocks",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "github.com/nk1433/faker-parser/b125f3df2eda36fa855750a111f4996e3faf96f9",
+    "wanted": {
+      "dependentId": ".",
+      "name": "fakeParser",
+      "rawSpec": "nk1433/faker-parser#master"
+    }
+  },
+  "5 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "github.com/nk1433/faker-parser/b125f3df2eda36fa855750a111f4996e3faf96f9",
+    "size": 1148,
+    "status": "started"
+  },
+  "6 error pnpm": {
+    "code": "ERR_PNPM_MISSING_PACKAGE_NAME",
+    "err": {
+      "name": "Error",
+      "message": "Can't install nk1433/faker-parser#master: Missing package name",
+      "code": "ERR_PNPM_MISSING_PACKAGE_NAME",
+      "stack": "Error: Can't install nk1433/faker-parser#master: Missing package name\n    at resolveDependency (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:110026:15)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async resolveDependenciesOfDependency (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:109785:39)\n    at async Promise.all (index 0)\n    at async Object.resolveDependencies [as default] (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:109755:29)\n    at async /usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:110283:47\n    at async Promise.all (index 0)\n    at async Object.default_1 [as default] (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:110256:7)\n    at async Object.default_1 [as default] (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:111007:133)\n    at async _installInContext (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:112850:206)"
+    }
+  }
+}
