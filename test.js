@@ -1,3 +1,3 @@
-const {taskTree} = require("./index");
+const {task} = require("./index");
 
-console.log(taskTree())
+console.log(task())

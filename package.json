@@ -1,12 +1,13 @@
 {
   "name": "mocks",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "@laufire/utils": "^2.8.1",
     "faker-parser": "github:nk1433/faker-parser#master"
   },
   "repository": {

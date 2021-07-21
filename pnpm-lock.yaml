@@ -1,26 +1,26 @@
 lockfileVersion: 5.3
 
 specifiers:
-  fake-parser: nk1433/faker-parser#master
+  '@laufire/utils': ^2.8.1
   faker-parser: github:nk1433/faker-parser#master
 
 dependencies:
-  fake-parser: github.com/nk1433/faker-parser/582e620e5d202544dd4d44ecc409cfd9c272ceb1
-  faker-parser: github.com/nk1433/faker-parser/582e620e5d202544dd4d44ecc409cfd9c272ceb1
+  '@laufire/utils': 2.8.1
+  faker-parser: github.com/nk1433/faker-parser/142a8aa18a416e8a53fa6d056cbcf7ad3eb1bcc8
 
 packages:
 
-  /@babel/runtime/7.14.6:
-    resolution: {integrity: sha512-/PCB2uJ7oM44tz8YhC4Z/6PeOKXp4K588f+5M3clr1M4zbqztlo0XEfJ2LEzj/FgwfgGcIdl8n7YYjTCI0BYwg==}
+  /@babel/runtime/7.14.8:
+    resolution: {integrity: sha512-twj3L8Og5SaCRCErB4x4ajbvBIVV77CGeFglHpeg5WC5FF8TZzBWXtTJ4MqaD9QszLYTtr+IsaAL2rEUevb+eg==}
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.13.7
     dev: false
 
-  /@laufire/utils/2.7.0:
-    resolution: {integrity: sha512-QPyqsB9mVZT9UFfNX7gO+to71RIrchV6oJC7kpBYxlTC/Oe8ZsK/F/mXn6lMmGvw0cOBsY8a9CwyXCecqwLAWg==}
+  /@laufire/utils/2.8.1:
+    resolution: {integrity: sha512-RCPrxPrh2l74PtbTplj817nx5baP6u+vwf6I3CB/pzf/tABNzCrU21D89JlAKsrKNml/umzM5/CMrddTWtiQww==}
     dependencies:
-      '@babel/runtime': 7.14.6
+      '@babel/runtime': 7.14.8
     optionalDependencies:
       fsevents: 2.3.2
     dev: false
@@ -40,11 +40,11 @@ packages:
     resolution: {integrity: sha512-a54FxoJDIr27pgf7IgeQGxmqUNYrcV338lf/6gH456HZ/PhX+5BcwHXG9ajESmwe6WRO0tAzRUrRmNONWgkrew==}
     dev: false
 
-  github.com/nk1433/faker-parser/582e620e5d202544dd4d44ecc409cfd9c272ceb1:
-    resolution: {tarball: https://codeload.github.com/nk1433/faker-parser/tar.gz/582e620e5d202544dd4d44ecc409cfd9c272ceb1}
+  github.com/nk1433/faker-parser/142a8aa18a416e8a53fa6d056cbcf7ad3eb1bcc8:
+    resolution: {tarball: https://codeload.github.com/nk1433/faker-parser/tar.gz/142a8aa18a416e8a53fa6d056cbcf7ad3eb1bcc8}
     name: faker-parser
     version: 0.0.1
     dependencies:
-      '@laufire/utils': 2.7.0
+      '@laufire/utils': 2.8.1
       faker: 5.5.3
     dev: false
