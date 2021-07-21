@@ -6,7 +6,7 @@ specifiers:
 
 dependencies:
   '@laufire/utils': 2.8.1
-  faker-parser: github.com/nk1433/faker-parser/142a8aa18a416e8a53fa6d056cbcf7ad3eb1bcc8
+  faker-parser: github.com/nk1433/faker-parser/924e82dd3672fa598f4134c243c59b619d5dde7c
 
 packages:
 
@@ -40,8 +40,8 @@ packages:
     resolution: {integrity: sha512-a54FxoJDIr27pgf7IgeQGxmqUNYrcV338lf/6gH456HZ/PhX+5BcwHXG9ajESmwe6WRO0tAzRUrRmNONWgkrew==}
     dev: false
 
-  github.com/nk1433/faker-parser/142a8aa18a416e8a53fa6d056cbcf7ad3eb1bcc8:
-    resolution: {tarball: https://codeload.github.com/nk1433/faker-parser/tar.gz/142a8aa18a416e8a53fa6d056cbcf7ad3eb1bcc8}
+  github.com/nk1433/faker-parser/924e82dd3672fa598f4134c243c59b619d5dde7c:
+    resolution: {tarball: https://codeload.github.com/nk1433/faker-parser/tar.gz/924e82dd3672fa598f4134c243c59b619d5dde7c}
     name: faker-parser
     version: 0.0.1
     dependencies:
