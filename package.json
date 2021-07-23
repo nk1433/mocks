@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@laufire/utils": "^2.8.1",
+    "@laufire/utils": "^2.9.0",
     "faker-parser": "github:nk1433/faker-parser#master"
   },
   "repository": {
