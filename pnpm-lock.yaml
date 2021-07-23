@@ -2,11 +2,13 @@ lockfileVersion: 5.3
 
 specifiers:
   '@laufire/utils': ^2.9.0
-  faker-parser: github:nk1433/faker-parser#master
+  faker: ^5.5.3
+  faker-parser: github:nk1433/faker-parser#v0.0.1
 
 dependencies:
   '@laufire/utils': 2.9.0
-  faker-parser: github.com/nk1433/faker-parser/924e82dd3672fa598f4134c243c59b619d5dde7c
+  faker: 5.5.3
+  faker-parser: github.com/nk1433/faker-parser/99d12114842228476154077025a174495dad6bc3
 
 packages:
 
@@ -40,8 +42,8 @@ packages:
     resolution: {integrity: sha512-a54FxoJDIr27pgf7IgeQGxmqUNYrcV338lf/6gH456HZ/PhX+5BcwHXG9ajESmwe6WRO0tAzRUrRmNONWgkrew==}
     dev: false
 
-  github.com/nk1433/faker-parser/924e82dd3672fa598f4134c243c59b619d5dde7c:
-    resolution: {tarball: https://codeload.github.com/nk1433/faker-parser/tar.gz/924e82dd3672fa598f4134c243c59b619d5dde7c}
+  github.com/nk1433/faker-parser/99d12114842228476154077025a174495dad6bc3:
+    resolution: {tarball: https://codeload.github.com/nk1433/faker-parser/tar.gz/99d12114842228476154077025a174495dad6bc3}
     name: faker-parser
     version: 0.0.1
     dependencies:

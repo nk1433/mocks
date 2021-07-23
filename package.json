@@ -8,7 +8,8 @@
   },
   "dependencies": {
     "@laufire/utils": "^2.9.0",
-    "faker-parser": "github:nk1433/faker-parser#master"
+    "faker": "^5.5.3",
+    "faker-parser": "github:nk1433/faker-parser#v0.0.1"
   },
   "repository": {
     "type": "git",
